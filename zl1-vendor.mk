@@ -18,24 +18,12 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/leeco/zl1/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/leeco/zl1/proprietary/bin/gx_fpd:system/bin/gx_fpd \
-    vendor/leeco/zl1/proprietary/bin/ifaa_daemon:system/bin/ifaa_daemon \
     vendor/leeco/zl1/proprietary/bin/ks:system/bin/ks \
     vendor/leeco/zl1/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/leeco/zl1/proprietary/bin/ppd:system/bin/ppd \
     vendor/leeco/zl1/proprietary/bin/ssr_diag:system/bin/ssr_diag \
     vendor/leeco/zl1/proprietary/bin/ssr_setup:system/bin/ssr_setup \
-    vendor/leeco/zl1/proprietary/bin/tbaseLoader:system/bin/tbaseLoader \
     vendor/leeco/zl1/proprietary/bin/tloc_daemon:system/bin/tloc_daemon \
-    vendor/leeco/zl1/proprietary/bin/usf_proximity:system/bin/usf_proximity \
-    vendor/leeco/zl1/proprietary/bin/usf_tester:system/bin/usf_tester \
-    vendor/leeco/zl1/proprietary/bin/yep_qmi_server:system/bin/yep_qmi_server \
-    vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
-    vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
-    vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
-    vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
-    vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
-    vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
-    vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
     vendor/leeco/zl1/proprietary/etc/ad_calib.cfg:system/etc/ad_calib.cfg \
     vendor/leeco/zl1/proprietary/etc/ad_calib_le_zl1.cfg:system/etc/ad_calib_le_zl1.cfg \
     vendor/leeco/zl1/proprietary/etc/camera/imx298_chromatix.xml:system/etc/camera/imx298_chromatix.xml \
@@ -53,19 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
     vendor/leeco/zl1/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
     vendor/leeco/zl1/proprietary/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin \
-    vendor/leeco/zl1/proprietary/etc/firmware/a530_gpmu.fw2:system/etc/firmware/a530_gpmu.fw2 \
-    vendor/leeco/zl1/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
-    vendor/leeco/zl1/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
-    vendor/leeco/zl1/proprietary/etc/firmware/a530_zap.b00:system/etc/firmware/a530_zap.b00 \
-    vendor/leeco/zl1/proprietary/etc/firmware/a530_zap.b01:system/etc/firmware/a530_zap.b01 \
-    vendor/leeco/zl1/proprietary/etc/firmware/a530_zap.b02:system/etc/firmware/a530_zap.b02 \
-    vendor/leeco/zl1/proprietary/etc/firmware/a530_zap.elf:system/etc/firmware/a530_zap.elf \
-    vendor/leeco/zl1/proprietary/etc/firmware/a530_zap.mdt:system/etc/firmware/a530_zap.mdt \
-    vendor/leeco/zl1/proprietary/etc/firmware/a530v1_pfp.fw:system/etc/firmware/a530v1_pfp.fw \
-    vendor/leeco/zl1/proprietary/etc/firmware/a530v1_pm4.fw:system/etc/firmware/a530v1_pm4.fw \
-    vendor/leeco/zl1/proprietary/etc/firmware/a530v2_seq.fw2:system/etc/firmware/a530v2_seq.fw2 \
-    vendor/leeco/zl1/proprietary/etc/firmware/a530v3_gpmu.fw2:system/etc/firmware/a530v3_gpmu.fw2 \
-    vendor/leeco/zl1/proprietary/etc/firmware/a530v3_seq.fw2:system/etc/firmware/a530v3_seq.fw2 \
     vendor/leeco/zl1/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
     vendor/leeco/zl1/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/leeco/zl1/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
@@ -110,19 +85,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/leeco/zl1/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
     vendor/leeco/zl1/proprietary/etc/firmware/sii6400_wihd_mhl.fw:system/etc/firmware/sii6400_wihd_mhl.fw \
-    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530_gpmu.fw2:system/etc/firmware/zl0/a530_gpmu.fw2 \
-    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530_pfp.fw:system/etc/firmware/zl0/a530_pfp.fw \
-    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530_pm4.fw:system/etc/firmware/zl0/a530_pm4.fw \
-    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530_zap.b00:system/etc/firmware/zl0/a530_zap.b00 \
-    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530_zap.b01:system/etc/firmware/zl0/a530_zap.b01 \
-    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530_zap.b02:system/etc/firmware/zl0/a530_zap.b02 \
-    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530_zap.elf:system/etc/firmware/zl0/a530_zap.elf \
-    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530_zap.mdt:system/etc/firmware/zl0/a530_zap.mdt \
-    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530v1_pfp.fw:system/etc/firmware/zl0/a530v1_pfp.fw \
-    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530v1_pm4.fw:system/etc/firmware/zl0/a530v1_pm4.fw \
-    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530v2_seq.fw2:system/etc/firmware/zl0/a530v2_seq.fw2 \
-    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530v3_gpmu.fw2:system/etc/firmware/zl0/a530v3_gpmu.fw2 \
-    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530v3_seq.fw2:system/etc/firmware/zl0/a530v3_seq.fw2 \
     vendor/leeco/zl1/proprietary/etc/qxdm/1.cfg:system/etc/qxdm/1.cfg \
     vendor/leeco/zl1/proprietary/etc/qxdm/gps_log.cfg:system/etc/qxdm/gps_log.cfg \
     vendor/leeco/zl1/proprietary/etc/usf/form_factor_mtp.cfg:system/etc/usf/form_factor_mtp.cfg \
@@ -140,7 +102,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/usf/proximity/cfg_mtp/usf_ranging_mtp_algo_transparent_data.bin:system/etc/usf/proximity/cfg_mtp/usf_ranging_mtp_algo_transparent_data.bin \
     vendor/leeco/zl1/proprietary/etc/usf/readme.txt:system/etc/usf/readme.txt \
     vendor/leeco/zl1/proprietary/etc/usf/version.txt:system/etc/usf/version.txt \
-    vendor/leeco/zl1/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
     vendor/leeco/zl1/proprietary/lib/libLetvCameraImageSDK.so:system/lib/libLetvCameraImageSDK.so \
     vendor/leeco/zl1/proprietary/lib/libamipengine.so:system/lib/libamipengine.so \
     vendor/leeco/zl1/proprietary/lib/libarcsoft_antishaking.so:system/lib/libarcsoft_antishaking.so \
@@ -156,24 +117,56 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/lib/libcamera_letv_algo.so:system/lib/libcamera_letv_algo.so \
     vendor/leeco/zl1/proprietary/lib/libletv_algo_jni.so:system/lib/libletv_algo_jni.so \
     vendor/leeco/zl1/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/leeco/zl1/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/leeco/zl1/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/leeco/zl1/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/leeco/zl1/proprietary/lib/libmpkernel.so:system/lib/libmpkernel.so \
     vendor/leeco/zl1/proprietary/lib/libmpstream.so:system/lib/libmpstream.so \
     vendor/leeco/zl1/proprietary/lib/libmputility.so:system/lib/libmputility.so \
-    vendor/leeco/zl1/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/leeco/zl1/proprietary/lib/libqrDec.so:system/lib/libqrDec.so \
     vendor/leeco/zl1/proprietary/lib/libzeusisCameraAlgoSceneDetection.so:system/lib/libzeusisCameraAlgoSceneDetection.so \
-    vendor/leeco/zl1/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
+    vendor/leeco/zl1/proprietary/lib64/hw/fingerprint.vendor.msm8996.so:system/lib64/hw/fingerprint.vendor.msm8996.so \
     vendor/leeco/zl1/proprietary/lib64/hw/gxfingerprint5118m.default.so:system/lib64/hw/gxfingerprint5118m.default.so \
     vendor/leeco/zl1/proprietary/lib64/libfp_client5118m.so:system/lib64/libfp_client5118m.so \
     vendor/leeco/zl1/proprietary/lib64/libfpnav5118m.so:system/lib64/libfpnav5118m.so \
     vendor/leeco/zl1/proprietary/lib64/libfpservice5118m.so:system/lib64/libfpservice5118m.so \
-    vendor/leeco/zl1/proprietary/vendor/bin/fidoca:system/vendor/bin/fidoca \
     vendor/leeco/zl1/proprietary/vendor/bin/mdtpd:system/vendor/bin/mdtpd \
     vendor/leeco/zl1/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
+    vendor/leeco/zl1/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
+    vendor/leeco/zl1/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb \
+    vendor/leeco/zl1/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb \
+    vendor/leeco/zl1/proprietary/vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
+    vendor/leeco/zl1/proprietary/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
+    vendor/leeco/zl1/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
+    vendor/leeco/zl1/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/leeco/zl1/proprietary/vendor/etc/qdcm_calib_data_mdss_dsi_ft8716_1080p_video.xml:system/vendor/etc/qdcm_calib_data_mdss_dsi_ft8716_1080p_video.xml \
+    vendor/leeco/zl1/proprietary/vendor/etc/qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video.xml:system/vendor/etc/qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video.xml \
+    vendor/leeco/zl1/proprietary/vendor/etc/qdcm_calib_data_mdss_dsi_sharp_qhd_dualdsi_cmd.xml:system/vendor/etc/qdcm_calib_data_mdss_dsi_sharp_qhd_dualdsi_cmd.xml \
+    vendor/leeco/zl1/proprietary/vendor/firmware/a530_gpmu.fw2:system/vendor/firmware/a530_gpmu.fw2 \
+    vendor/leeco/zl1/proprietary/vendor/firmware/a530_pfp.fw:system/vendor/firmware/a530_pfp.fw \
+    vendor/leeco/zl1/proprietary/vendor/firmware/a530_pm4.fw:system/vendor/firmware/a530_pm4.fw \
+    vendor/leeco/zl1/proprietary/vendor/firmware/a530_zap.b00:system/vendor/firmware/a530_zap.b00 \
+    vendor/leeco/zl1/proprietary/vendor/firmware/a530_zap.b01:system/vendor/firmware/a530_zap.b01 \
+    vendor/leeco/zl1/proprietary/vendor/firmware/a530_zap.b02:system/vendor/firmware/a530_zap.b02 \
+    vendor/leeco/zl1/proprietary/vendor/firmware/a530_zap.elf:system/vendor/firmware/a530_zap.elf \
+    vendor/leeco/zl1/proprietary/vendor/firmware/a530_zap.mdt:system/vendor/firmware/a530_zap.mdt \
+    vendor/leeco/zl1/proprietary/vendor/firmware/a530v1_pfp.fw:system/vendor/firmware/a530v1_pfp.fw \
+    vendor/leeco/zl1/proprietary/vendor/firmware/a530v1_pm4.fw:system/vendor/firmware/a530v1_pm4.fw \
+    vendor/leeco/zl1/proprietary/vendor/firmware/a530v2_seq.fw2:system/vendor/firmware/a530v2_seq.fw2 \
+    vendor/leeco/zl1/proprietary/vendor/firmware/a530v3_gpmu.fw2:system/vendor/firmware/a530v3_gpmu.fw2 \
+    vendor/leeco/zl1/proprietary/vendor/firmware/a530v3_seq.fw2:system/vendor/firmware/a530v3_seq.fw2 \
     vendor/leeco/zl1/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
+    vendor/leeco/zl1/proprietary/vendor/firmware/zl0/a530_gpmu.fw2:system/vendor/firmware/zl0/a530_gpmu.fw2 \
+    vendor/leeco/zl1/proprietary/vendor/firmware/zl0/a530_pfp.fw:system/vendor/firmware/zl0/a530_pfp.fw \
+    vendor/leeco/zl1/proprietary/vendor/firmware/zl0/a530_pm4.fw:system/vendor/firmware/zl0/a530_pm4.fw \
+    vendor/leeco/zl1/proprietary/vendor/firmware/zl0/a530_zap.b00:system/vendor/firmware/zl0/a530_zap.b00 \
+    vendor/leeco/zl1/proprietary/vendor/firmware/zl0/a530_zap.b01:system/vendor/firmware/zl0/a530_zap.b01 \
+    vendor/leeco/zl1/proprietary/vendor/firmware/zl0/a530_zap.b02:system/vendor/firmware/zl0/a530_zap.b02 \
+    vendor/leeco/zl1/proprietary/vendor/firmware/zl0/a530_zap.elf:system/vendor/firmware/zl0/a530_zap.elf \
+    vendor/leeco/zl1/proprietary/vendor/firmware/zl0/a530_zap.mdt:system/vendor/firmware/zl0/a530_zap.mdt \
+    vendor/leeco/zl1/proprietary/vendor/firmware/zl0/a530v1_pfp.fw:system/vendor/firmware/zl0/a530v1_pfp.fw \
+    vendor/leeco/zl1/proprietary/vendor/firmware/zl0/a530v1_pm4.fw:system/vendor/firmware/zl0/a530v1_pm4.fw \
+    vendor/leeco/zl1/proprietary/vendor/firmware/zl0/a530v2_seq.fw2:system/vendor/firmware/zl0/a530v2_seq.fw2 \
+    vendor/leeco/zl1/proprietary/vendor/firmware/zl0/a530v3_gpmu.fw2:system/vendor/firmware/zl0/a530v3_gpmu.fw2 \
+    vendor/leeco/zl1/proprietary/vendor/firmware/zl0/a530v3_seq.fw2:system/vendor/firmware/zl0/a530v3_seq.fw2 \
     vendor/leeco/zl1/proprietary/vendor/lib/libSonyIMX230_lg_PdafLibrary.so:system/vendor/lib/libSonyIMX230_lg_PdafLibrary.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libSonyIMX230_sunny_PdafLibrary.so:system/vendor/lib/libSonyIMX230_sunny_PdafLibrary.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libSonyIMX298PdafLibrary.so:system/vendor/lib/libSonyIMX298PdafLibrary.so \
@@ -490,7 +483,3 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib64/libual.so:system/vendor/lib64/libual.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libualutil.so:system/vendor/lib64/libualutil.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libusndroute.so:system/vendor/lib64/libusndroute.so
-
-PRODUCT_PACKAGES += \
-    qdcm_calib_data_mdss_dsi_ft8716_1080p_video \
-    qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video
